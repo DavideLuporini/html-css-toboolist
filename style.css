@@ -17,3 +17,32 @@ body{
     font-weight: bolder;
     vertical-align: text-bottom;
 }
+/* utilities */
+main{
+    background-color: white;
+    margin: 20px 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container{
+    padding-left: 30px;
+    text-align:left;
+}
+
+/* buttons */
+#addtaskbutton{
+    background-color: rgb(13, 85, 167);
+    border-color: rgb(13, 85, 167);
+    border-radius: 10%;
+    color:white;
+}
+#conteinerbottoni{
+    padding-left: 30px;
+}
+
+#addsectionbutton{
+    background-color: white;
+    border-color: #607d8b;
+    border-radius: 10%;
+    color: #607d8b;
+}
