@@ -1,100 +1,127 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     background-color: white;
-    padding-top: 10px;
 }
 
 body{
     background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
+
 }
+
 #logo{
     padding-left: 20px;
+    vertical-align: middle;
 }
 
 #logo-text{
     color: black;
     font-size: 45px;
     font-weight: bolder;
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
-/* utilities */
 
+h1{
+    display: inline;
+    line-height: 80px;
+}
+
+/* utilities */
 ul{
     list-style: none;
     padding: 0px;
 }
-
 main{
     background-color: white;
     margin: 20px 25%;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .container{
     padding-left: 30px;
     text-align:left;
 }
 
-/* buttons */
-#addtaskbutton{
-    background-color: rgb(13, 85, 167);
-    border-color: rgb(13, 85, 167);
-    border-radius: 10%;
-    color:white;
+ul,h2,#addtaskbutton,#addsectionbutton{
+    cursor: pointer
 }
+
+/* buttons */
 #conteinerbottoni{
     padding-left: 30px;
 }
-
+#addtaskbutton{
+    background-color: rgb(13, 85, 167);
+    border-color: rgb(13, 85, 167);
+    border-radius: 5px;
+    color:white;
+    padding: 5px;
+}
 #addsectionbutton{
     background-color: white;
     border-color: #607d8b;
-    border-radius: 10%;
+    border-radius: 5px;
     color: #607d8b;
+    padding: 5px;
+
 }
 .titleslists{
+
     font-size: 20px;
     font-weight: bold;
 }
+
 /* markers */
-::marker{
-    margin: 0;
-}
 .marker1{
     font-size: 10px;
     vertical-align: middle;
 }
 
+/* Articles list */
+
 li{
     margin-top: 20px;
 }
+
 /* articles icons */
 .articletype{
-    padding: 1px;
+    width: 15px;
+    height: 15px;
     border: 5px solid;
     border-radius: 10px;
     color: white;
     font-size: 10px;
-    margin: 2px;
+    margin: 5px;
 }
+
 .articletype-blue{
     border-color: rgb(13, 85, 167);
     background-color: rgb(13, 85, 167);
 }
+
 .articletype-violet{
     border-color: violet;
     background-color: violet;
 
 }
+
 .articletype-green{
     border-color: green;
     background-color: green;
 
 }
+
 .articletype-orange{
 border-color: orange;
 background-color: orange;
 }
+
 .articletype-yellow{
     border-color: yellow;
     background-color: yellow;
